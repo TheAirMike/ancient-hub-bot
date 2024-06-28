@@ -1,0 +1,22 @@
+{
+    "dockerFile": "${localWorkspaceFolder}/.devcontainer/Dockerfile",
+    "name": "ancient-hub-bot-sdk",
+    "runArgs": [
+        "-h",
+        "ancient-hub-bot-sdk"
+    ],
+    "workspaceFolder": "/home/vscode/ancient-hub-bot",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/ancient-hub-bot,type=bind",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "serayuzgur.crates",
+                "tamasfe.even-better-toml",
+                "usernamehw.errorlens",
+                "vadimcn.vscode-lldb",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
+}
